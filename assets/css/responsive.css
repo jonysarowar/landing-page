@@ -1,0 +1,141 @@
+
+/* Medium Layout :1280px. */
+@media only screen and (min-width: 992px) and (max-width:  1200px) {
+    
+}
+ 
+/* Tablet Layout :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .single-about-box {
+        height: 428px;
+      }
+    .footer-social-box .fa {
+    margin-left: 45px;
+    }
+    .copy-right-text  p {
+        font-size: 12px;
+      }
+
+}
+ 
+/* Mobile Layout:320px. */
+ 
+@media only screen and (max-width: 767px) {
+    .about-title h2 {
+        color: blue;
+    }
+    .logo {
+        margin-top: 10px;
+      }
+      .free-btn {
+        display: none;
+      }
+      .section-padding {
+        padding-bottom: 21%;
+        padding-top: 0px;
+      }
+      .hero-mobile-img {
+        display: none;
+      }
+      .title-text p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 15px;
+        padding-left: 103px;
+      }
+      .button-box {
+        height: 65px;
+        margin-left: 14px;
+        margin-top: 32px;
+        padding-left: 35px;
+        width: 125px;
+        margin-top: ;
+      }
+      .button-box .fa {
+        font-size: 20px;
+        left: 12px;
+      }
+      .button-box span {
+        font-size: 15px;
+      }
+      .title-text h2 {
+        font-size: 19px;
+      }
+    .about-title h2 {
+        margin-bottom: 25px;
+      }
+    .about-title p {
+        margin-bottom: 50px;
+      }
+      .single-about-box {
+        margin-bottom: 25px;
+      }
+      .single-pricing-box {
+        margin-bottom: 20px;
+      }
+      .cliet-img {
+        left: 30%;
+      }
+      .footer-social-box .fa {
+        margin-left: 35px;
+      }
+      .footer-social-box {
+        text-align: center;
+      }
+      .copy-right-text {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .contact-info {
+        margin-bottom: 20px;
+      }
+
+.main-menu{
+    display:none;
+}
+
+.slicknav_menu {
+    background: none;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 5;
+}
+.slicknav_btn {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0 0 5px;
+    padding: 0;
+}
+.slicknav_menu .slicknav_icon {
+    font-size: 20px;
+    padding: 0;
+}
+.slicknav_nav {
+    width: 175px;
+    background: blue;
+}
+.slicknav_nav a {
+    margin: 0;
+    padding: 5px 15px;
+}
+.slicknav_nav a:hover{
+    border-radius: 0px;
+}
+.slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+ 
+
+}
+
+/* Wide Mobile Layout:480px. */
+ 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .about-title h2 {
+        color: gold;
+    }
+    
+
+}
